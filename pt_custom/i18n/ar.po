@@ -1,0 +1,757 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pt_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-27 10:55+0000\n"
+"PO-Revision-Date: 2024-08-27 14:03+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. module: pt_custom
+#: model:ir.actions.report,print_report_name:pt_custom.property_report
+#: model:ir.actions.report,print_report_name:pt_custom.property_report_xlsx
+msgid "'Request for Quotation'"
+msgstr "طلب عرض أسعار"
+
+#. module: pt_custom
+#: model:mail.template,body_html:pt_custom.email_template_name
+msgid ""
+"<div>\n"
+"                                   <p>\n"
+"                                       Hello,\n"
+"                                       <br>\n"
+"                                       <br>\n"
+"                                       Thank You For Buying From Us :)!\n"
+"                                       <br>\n"
+"                                       <br>\n"
+"                                       <br>PeerLess\n"
+"                                       <br>\n"
+"                                       <br>\n"
+"                                   </p>\n"
+"                               </div>\n"
+"            "
+msgstr ""
+"<ديف>\n"
+"                                   <ص>\n"
+"                                       مرحبًا،\n"
+"                                       <ر>\n"
+"                                       <ر>\n"
+"                                       شكرا لك على الشراء منا :)!\n"
+"                                       <ر>\n"
+"                                       <ر>\n"
+"                                       <br>بيرليس\n"
+"                                       <ر>\n"
+"                                       <ر>\n"
+"                                   </ص>\n"
+"                               </div>"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Action"
+msgstr "نشاط"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_needaction
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_needaction
+msgid "Action Needed"
+msgstr "الإجراء مطلوب"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__active
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__active
+msgid "Active"
+msgstr "نشيط"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_ids
+msgid "Activities"
+msgstr "أنشطة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_exception_decoration
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "النشاط المنتهي"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_state
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_type_icon
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "أيقونة نوع النشاط"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.building_view_form
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Additional Info."
+msgstr "معلومات إضافية."
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_client__address
+#: model:ir.model.fields,field_description:pt_custom.field_owner__address
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__owner_address
+msgid "Address"
+msgstr "عنوان"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__area
+msgid "Area"
+msgstr "مساحة"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Area(m2)"
+msgstr "المساحة (م2)"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_attachment_count
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__bedrooms
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Bedrooms"
+msgstr "غرف النوم"
+
+#. module: pt_custom
+#: model:ir.actions.act_window,name:pt_custom.building_action
+msgid "Building"
+msgstr "المبنى"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_building
+msgid "Building Record"
+msgstr "سجل البناء"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.building_menu_item
+msgid "Buildings"
+msgstr "المباني"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__user_id
+msgid "Buyer"
+msgstr "المشتري"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.change_state_wizard_view_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: pt_custom
+#: model:ir.actions.act_window,name:pt_custom.change_state_wizard_action
+#: model:ir.actions.server,name:pt_custom.property_change_state_server_action
+msgid "Change State"
+msgstr "تغيير الحالة"
+
+#. module: pt_custom
+#: model:ir.actions.server,name:pt_custom.property_closed_server_action
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__state__closed
+msgid "Closed"
+msgstr "مغلقة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__code
+msgid "Code"
+msgstr "الرمز"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__company_id
+msgid "Company"
+msgstr "شركة"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.configration_menu
+msgid "Configration"
+msgstr "التهيئة"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.change_state_wizard_view_form
+msgid "Confirm"
+msgstr "تأكيد"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_client__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_owner__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__create_uid
+#: model:ir.model.fields,field_description:pt_custom.field_tag__create_uid
+msgid "Created by"
+msgstr "تم إنشاؤها بواسطة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_client__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_owner__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__create_date
+#: model:ir.model.fields,field_description:pt_custom.field_tag__create_date
+msgid "Created on"
+msgstr "تم إنشاؤها على"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__partner_id
+msgid "Customer"
+msgstr "عميل"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__date_availability
+msgid "Date Availability"
+msgstr "تاريخ الإتاحة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__description
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__description
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__description
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Description"
+msgstr "الوصف"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__diff
+msgid "Diff"
+msgstr "مختلف"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_client__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_owner__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__display_name
+#: model:ir.model.fields,field_description:pt_custom.field_tag__display_name
+msgid "Display Name"
+msgstr "اسم المعروض"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__change_state__state__draft
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__state__draft
+msgid "Draft"
+msgstr "مشروع"
+
+#. module: pt_custom
+#: model:mail.template,name:pt_custom.email_template_name
+msgid "EMAIL TEMPLATE NAME"
+msgstr "اسم نموذج البريد الإلكتروني"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__garden_orientation__east
+msgid "East"
+msgstr "الشرق"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__expected_price
+msgid "Expected Price"
+msgstr "السعر المتوقع"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__expected_selling_date
+msgid "Expected Selling Date"
+msgstr "تاريخ البيع المتوقع"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__facades
+msgid "Facades"
+msgstr "الواجهات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_follower_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_partner_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعون (الشركاء)"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__activity_type_icon
+#: model:ir.model.fields,help:pt_custom.field_property_one__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "أيقونة الخط الرائع على سبيل المثال fa-tasks"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__garage
+msgid "Garage"
+msgstr "مرآب السيارات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__garden
+msgid "Garden"
+msgstr "حديقة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__garden_area
+msgid "Garden Area"
+msgstr "مساحة الحديقة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__garden_orientation
+msgid "Garden Orientation"
+msgstr "اتجاه الحديقة"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.building_view_form
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "General Info."
+msgstr "معلومات عامة."
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "General Information"
+msgstr "معلومات عامة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__has_message
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.property_history_menu_item
+msgid "History"
+msgstr "تاريخ السجل"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__id
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__id
+#: model:ir.model.fields,field_description:pt_custom.field_client__id
+#: model:ir.model.fields,field_description:pt_custom.field_owner__id
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__id
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__id
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__id
+#: model:ir.model.fields,field_description:pt_custom.field_tag__id
+msgid "ID"
+msgstr "الهوية"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_exception_icon
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_exception_icon
+msgid "Icon"
+msgstr "أيقونة"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__activity_exception_icon
+#: model:ir.model.fields,help:pt_custom.field_property_one__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "أيقونة للإشارة إلى نشاط استثناء."
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__message_needaction
+#: model:ir.model.fields,help:pt_custom.field_property_one__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم التحقق، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__message_has_error
+#: model:ir.model.fields,help:pt_custom.field_building__message_has_sms_error
+#: model:ir.model.fields,help:pt_custom.field_property_one__message_has_error
+#: model:ir.model.fields,help:pt_custom.field_property_one__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم التحقق، فإن بعض الرسائل تحتوي على خطأ في التسليم."
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_property_one__company_id
+msgid "If set, action binding only applies for this company"
+msgstr "في حالة التعيين، ينطبق ربط الإجراء على هذه الشركة فقط"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_is_follower
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_is_follower
+msgid "Is Follower"
+msgstr "هو المتابع"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__is_late
+msgid "Is Late"
+msgstr "متأخر"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_client__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_owner__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__write_uid
+#: model:ir.model.fields,field_description:pt_custom.field_tag__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_client__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_owner__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__write_date
+#: model:ir.model.fields,field_description:pt_custom.field_tag__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث بتاريخ"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__line_ids
+msgid "Line"
+msgstr "الخط"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__living_area
+msgid "Living Area"
+msgstr "غرفة المعيشة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_has_error
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__my_activity_date_deadline
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__name
+#: model:ir.model.fields,field_description:pt_custom.field_client__name
+#: model:ir.model.fields,field_description:pt_custom.field_owner__name
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__name
+#: model:ir.model.fields,field_description:pt_custom.field_tag__name
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Name"
+msgstr "الاسم"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__new_state
+msgid "New State"
+msgstr "الحالة الجديدة"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_date_deadline
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط التالي"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_summary
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_type_id
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__no
+msgid "No"
+msgstr "الرقم"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__garden_orientation__north
+msgid "North"
+msgstr "الشمال"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_needaction_counter
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_has_error_counter
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__message_needaction_counter
+#: model:ir.model.fields,help:pt_custom.field_property_one__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__message_has_error_counter
+#: model:ir.model.fields,help:pt_custom.field_property_one__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__old_state
+msgid "Old State"
+msgstr "الحالة القديمة"
+
+#. module: pt_custom
+#: model:ir.actions.act_window,name:pt_custom.owner_action
+#: model:ir.actions.act_window,name:pt_custom.tag_action
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__owner_id
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Owner"
+msgstr "المالك"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.owner_menu_item
+msgid "Owners"
+msgstr "الملاك"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__change_state__state__pending
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__state__pending
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_client__phone
+#: model:ir.model.fields,field_description:pt_custom.field_owner__phone
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__owner_phone
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Phone"
+msgstr "الهاتف"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__postcode
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Postcode"
+msgstr "الرقم البريدي"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.properties_menu
+#: model:ir.ui.menu,name:pt_custom.property_menu_item
+msgid "Properties"
+msgstr "العقارات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__property_id
+#: model:ir.model.fields,field_description:pt_custom.field_client__property_ids
+#: model:ir.model.fields,field_description:pt_custom.field_owner__property_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__property_id
+#: model:ir.model.fields,field_description:pt_custom.field_property_line__property_id
+#: model:ir.model.fields,field_description:pt_custom.field_sale_order__property_id
+#: model:ir.model.fields,field_description:pt_custom.field_stock_picking__property_id
+msgid "Property"
+msgstr "الممتلكات"
+
+#. module: pt_custom
+#: model:ir.actions.act_window,name:pt_custom.property_history_action
+#: model:ir.model,name:pt_custom.model_property_history
+msgid "Property History"
+msgstr "سجل الملكية"
+
+#. module: pt_custom
+#: model:ir.actions.report,name:pt_custom.property_report
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_report_template
+msgid "Property Report"
+msgstr "تقرير الملكية"
+
+#. module: pt_custom
+#: model:ir.actions.report,name:pt_custom.property_report_xlsx
+msgid "Property Report excel"
+msgstr "تقرير الملكية إكسل"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_property_one
+msgid "Property.one"
+msgstr "الملكية.واحد"
+
+#. module: pt_custom
+#: model:ir.actions.server,name:pt_custom.check_selling_date_cron_ir_actions_server
+msgid "Property: check selling date"
+msgstr "العقار: تحقق من تاريخ البيع"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.real_estate_root_menu
+msgid "Real Estate"
+msgstr "عقارات"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__reason
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__reason
+msgid "Reason"
+msgstr "السبب"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__ref
+msgid "Ref"
+msgstr "رمز"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__activity_user_id
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__message_has_sms_error
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في توصيل الرسائل النصية القصيرة"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__selling_price
+msgid "Selling Price"
+msgstr "سعر البيع"
+
+#. module: pt_custom
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Set To Draft"
+msgstr "تعيين إلى المشروع"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__state__sold
+#: model_terms:ir.ui.view,arch_db:pt_custom.property_view_form
+msgid "Sold"
+msgstr "تم البيع"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__garden_orientation__south
+msgid "South"
+msgstr "الجنوب"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_change_state__state
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__activity_state
+#: model:ir.model.fields,help:pt_custom.field_property_one__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"الحالة بناءً على الأنشطة\n"
+"متأخرة: انقضى تاريخ الاستحقاق بالفعل\n"
+"اليوم: تاريخ النشاط هو اليوم\n"
+"مخطط له: الأنشطة المستقبلية."
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__tag_ids
+msgid "Tag"
+msgstr "علامة"
+
+#. module: pt_custom
+#: model:ir.ui.menu,name:pt_custom.tag_menu_item
+msgid "Tags"
+msgstr "العلامات"
+
+#. module: pt_custom
+#: model:ir.model.constraint,message:pt_custom.constraint_property_one_unique_name
+msgid "This name is exist!"
+msgstr "هذا الاسم موجود!"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_stock_picking
+msgid "Transfer"
+msgstr "تحويل"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__activity_exception_decoration
+#: model:ir.model.fields,help:pt_custom.field_property_one__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع نشاط الاستثناء المسجل."
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_property_history__user_id
+msgid "User"
+msgstr "المستخدم"
+
+#. module: pt_custom
+#: model:ir.model.fields,field_description:pt_custom.field_building__website_message_ids
+#: model:ir.model.fields,field_description:pt_custom.field_property_one__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: pt_custom
+#: model:ir.model.fields,help:pt_custom.field_building__website_message_ids
+#: model:ir.model.fields,help:pt_custom.field_property_one__website_message_ids
+msgid "Website communication history"
+msgstr "تاريخ اتصالات الموقع الإلكتروني"
+
+#. module: pt_custom
+#: model:ir.model.fields.selection,name:pt_custom.selection__property_one__garden_orientation__west
+msgid "West"
+msgstr "الغرب"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_change_state
+msgid "change.state"
+msgstr "تغيير الحالة"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_client
+msgid "client"
+msgstr "العميل"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_owner
+msgid "owner"
+msgstr "المالك"
+
+#. module: pt_custom
+#: model:ir.actions.act_window,name:pt_custom.property_action
+msgid "property action"
+msgstr "الإجراء الخاص بالممتلكات"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_property_line
+msgid "property.line"
+msgstr "خط العقار"
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_report_pt_custom_property_report_template_xlsx
+msgid "report.pt_custom.property_report_template_xlsx"
+msgstr ""
+
+#. module: pt_custom
+#: model:ir.model,name:pt_custom.model_tag
+msgid "tag"
+msgstr "علامة"
+
+#. module: pt_custom
+#: model:mail.template,subject:pt_custom.email_template_name
+msgid "{{ object.company_id.name }}"
+msgstr ""

@@ -1,0 +1,29 @@
+<odoo>
+    <!--    to send email-->
+    <data>
+        <record id="email_template_name" model="mail.template">
+            <field name="name">EMAIL TEMPLATE NAME</field>
+            <field name="model_id" ref="pt_custom.model_property_one"/>
+            <field name="subject">property.one</field>
+            <field name="subject">{{ object.company_id.name }}</field>
+            <field name="email_from">{{ (object.company_id.email) }}</field>
+            <field name="email_to">{{ (object.user_id.email) }}</field>
+            <field name="partner_to">{{ object.partner_id.id }}</field>
+            <field name="body_html" type="html">
+                <div>
+                    <p>
+                        Hello,
+                        <br/>
+                        <br/>
+                        Thank You For Buying From Us :)!
+                        <br/>
+                        <br/>
+                        <br/>PeerLess
+                        <br/>
+                        <br/>
+                    </p>
+                </div>
+            </field>
+        </record>
+    </data>
+</odoo>

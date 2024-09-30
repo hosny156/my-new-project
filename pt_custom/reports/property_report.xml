@@ -1,0 +1,106 @@
+<odoo>
+    <!--    to report pdf and html-->
+    <record id="property_report" model="ir.actions.report">
+        <field name="name">Property Report</field>
+        <field name="model">property.one</field>
+        <field name="report_type">qweb-html</field>
+        <field name="report_name">pt_custom.property_report_template</field>
+        <field name="report_file">pt_custom.property_report_template</field>
+        <field name="print_report_name">'Request for Quotation'</field>
+        <field name="binding_type">report</field>
+        <field name="binding_model_id" ref="pt_custom.model_property_one"/>
+    </record>
+    <!--       to report xlsx-->
+    <record id="property_report_xlsx" model="ir.actions.report">
+        <field name="name">Property Report excel</field>
+        <field name="model">property.one</field>
+        <field name="report_type">xlsx</field>
+        <field name="report_name">pt_custom.property_report_template_xlsx</field>
+        <field name="report_file">pt_custom.property_report_template_xlsx</field>
+        <field name="print_report_name">'Request for Quotation'</field>
+        <field name="binding_model_id" ref="pt_custom.model_property_one"/>
+    </record>
+
+
+    <!--     handling and styling for report (html+pdf) template -->
+    <template id="property_report_template">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <t t-foreach="docs" t-as="rec">
+                    <div class="page">
+                        <h1>Property Report</h1>
+                        <table>
+                            <thead>
+                                <th colspan="4">General Information</th>
+                                <style>
+                                    table{
+                                    width:100%;
+                                    border:1px solid #b3adad;
+                                    border-collapse:collapse;
+                                    padding:5px;
+                                    }
+                                    table th {
+                                    border:1px solid #b3adad;
+                                    padding:5px;
+                                    }
+                                    table th {
+                                    border:1px solid #b3adad;
+                                    padding:5px;
+                                    background: #f0f0f0;
+                                    color: 313030;
+                                    }
+                                    table td {
+                                    border:1px solid #b3adad;
+                                    text-align:center;
+                                    padding:5px;
+                                    background: #ffffff;
+                                    color: #313030;
+                                    }
+                                </style>
+                            </thead>
+                            <tbody>
+                                <td>Name</td>
+                                <td>
+                                    <t t-esc="rec.name"/>
+                                </td>
+                                <td>Postcode</td>
+                                <td>
+                                    <t t-esc="rec.postcode"/>
+                                </td>
+                            </tbody>
+                            <tbody>
+                                <td>Owner</td>
+                                <td>
+                                    <t t-esc="rec.owner_id.name"/>
+                                </td>
+                                <td>Phone</td>
+                                <td>
+                                    <t t-esc="rec.owner_phone"/>
+                                </td>
+                            </tbody>
+                        </table>
+                        <br/>
+                        <table>
+                            <thead>
+                                <th>Description</th>
+                                <th>Area(m2)</th>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="rec.line_ids" t-as="line">
+                                    <tr>
+                                        <td>
+                                            <t t-esc="line.description"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="line.area"/>
+                                        </td>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>
